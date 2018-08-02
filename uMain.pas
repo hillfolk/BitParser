@@ -67,7 +67,6 @@ begin
     begin
         LIntVal := neIntValue.IntValue;
 
-        //
         for i := cgBit.Items.Count - 1 downto 1 do
         begin
             if LIntVal >= Floor(Power(2, i)) then
